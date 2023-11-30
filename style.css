@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+}
+
+#capa {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p2/16275349-claro-gradiente-de-cor-laranja-para-plano-de-fundo-gratis-foto.jpg);
+  justify-content: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border: solid orange;
+  background-color: orange;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#Parágrafo-capa {
+  font-size: 21px;
+  border-top: 2px solid white;
+  margin-top: 1px;
+  padding-top: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  max-width: 90%;
+  text-align: center;
+}
+#icon {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  max-width: 15%;
+  height: auto;
+}
+
+#botão {
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 5px;
+  background-color: orange;
+  border: 2px solid black;
+  cursor: pointer;
+  color: black;
+  font-family: "Sarala", sans-serif;
+  margin-top: 30px;
+}
+
+#botão:hover {
+  background-color: black;
+  color: white;
+}
+
+#introdução-vídeo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffd9b7;
+}
+#vídeo {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+#metas {
+  margin-top: 40px;
+}
+
+body {
+  font-family: inter sans-serif;
+  font-size: 18px;
+}
+
+main {
+  margin-inline: 10%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.paragrafo {
+  max-width: 900px;
+}
+
+footer{
+  text-align: center;
+  background-color: #FFC965;
+  margin-top: 60px;
+  padding: 30px;
+}
+h4{
+  font-size: 23px;
+  margin-bottom: 13px;
+}
+
+@media screen and (max-width: 1250px) {
+#icon{
+  min-height: 186px;
+  min-width: 182px;
+}
+.flex {
+  flex-direction: column;
+}
+
+#vídeo {
+width: 80%;
+height: 400px;
+}
+
+.imagem2{
+  height: 200px;
+}
+}
